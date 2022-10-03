@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1647372918 source:c:\users\david\desktop\semos2\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1647904091 source:c:\users\david\desktop\semos c\3 cas\semos2\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1648571578 source:c:\users\david\desktop\semos c\semos2\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
