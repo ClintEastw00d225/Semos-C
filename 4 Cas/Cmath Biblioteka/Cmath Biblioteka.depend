@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1647970466 source:c:\users\david\desktop\cmath biblioteka\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

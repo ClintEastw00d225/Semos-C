@@ -1,0 +1,89 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+
+#define str_size 100 //Declare the maximum size of the string
+
+//void main() //Корисникот внесува стринг. Треба да се прикаже колку букви и колку цифри се пронајдени во стрингот
+//            //treba da se dosredi
+//{
+//    char str[str_size];
+//    int alp, digit, splch, i;
+//    alp = digit = splch = i = 0;
+//
+//
+//       printf("Count total number of alphabets, digits and special characters :\n");
+//       printf("Input the string : ");
+//       fgets(str, sizeof str, stdin);
+//
+//     /* Checks each character of string*/
+//
+//    while(str[i]!='\0')
+//    {
+//        if((str[i]>='a' && str[i]<='z') || (str[i]>='A' && str[i]<='Z'))
+//        {
+//            alp++;
+//        }
+//        else if(str[i]>='0' && str[i]<='9')
+//        {
+//            digit++;
+//        }
+//        else
+//        {
+//            splch++;
+//        }
+//
+//        i++;
+//    }
+//
+//    printf("Number of Alphabets in the string is : %d\n", alp);
+//    printf("Number of Digits in the string is : %d\n", digit);
+//    printf("Number of Special characters in the string is : %d\n\n", splch);
+
+
+int main() //Корисникот внесува стринг. Максимум 100 елементи. Програмата го печати на екран во обратен редослед
+{
+    char str[100];
+    int l,i;
+
+       printf("Vnesi string : ");
+       fgets(str, sizeof str, stdin);
+	   l=strlen(str);
+	   printf("Vneseniot stringot vo obraten redosled e:");
+       for(i=l;i>=0;i--)
+        {
+          printf("%c  ", str[i]);
+        }
+}
+
+
+
+int main()  //Да се напише програма која ќе провери дали еден збор е палиндром. Притоа треба да се земе во предвид дека не е важна
+            // големината на буквите.
+
+{
+    char s[1000];
+    int i,n,c=0;
+
+    printf("Vnesi zbor: ");
+    gets(s);
+    n=strlen(s);
+
+    for(i=0;i<n/2;i++)
+    {
+    	if(s[i]==s[n-i-1])
+    	c++;
+
+ 	}
+ 	if(c==i)
+ 	    printf("Zborot e Palindrom");
+    else
+        printf("Zborot ne e Palindrom");
+
+
+
+    return 0;
+}
+
+

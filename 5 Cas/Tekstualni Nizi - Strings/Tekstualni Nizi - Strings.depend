@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1648565194 source:c:\users\david\desktop\tekstualni nizi - strings\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
