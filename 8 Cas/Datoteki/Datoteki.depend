@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1654902681 source:c:\users\david\desktop\semos c\8 cas\datoteki\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1654902681 source:c:\users\david\desktop\semos c\datoteki\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+

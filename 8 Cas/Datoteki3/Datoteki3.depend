@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1655342384 source:c:\users\david\desktop\semos c\datoteki3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
