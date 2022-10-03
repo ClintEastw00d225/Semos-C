@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1647386957 source:c:\users\david\desktop\enumeratori\main.c
+	<stdio.h>
+	<stdlib.h>
+
